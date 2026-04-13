@@ -1,0 +1,75 @@
+body{
+				font-family:noto-sans-meroitic,arial,sans-sherif;
+				}
+				
+				.header{
+				background-color: orange;
+				color: white;
+				font-size: 26px;
+				font-weight: bold;
+				text-align: center;
+				padding: 12px;
+				}
+				
+				.left{
+					color : white;
+					background-color: black;
+					width: 26%;
+					height: 300px;
+					float: left;
+					padding-bottom: 20%;
+					padding-left: 10px;
+					}
+					
+				.main{
+					color: black;
+					background-color: white;
+					width: 70%;
+					height: 100%;
+					float: left;
+					padding-left: 10px;
+					}
+					
+				nav ul{
+						list-style:none;
+						padding-left:0
+						}	
+				nav a:hover{
+							color :orange;
+							}
+				nav a{
+					color : white;
+					text-decoration:none;
+					}
+				th, td {
+						padding: 10px;
+						text-align: left;
+						}
+				th {
+					background-color: orange;
+					color: white;
+					}
+				table {
+						width: 100%;
+						}
+
+				th.program-studi {
+								width: 50%; 
+								}
+
+				th.jenjang {
+							width: 15%;
+							}
+				tr:hover {background-color: coral;}
+				img {
+					border-radius: 8px;
+					}
+				.footer{
+				background-color: red;
+				color: white;
+				font-size: 14px;
+				font-weight: bold;
+				text-align: center;
+				padding: 10px;
+				clear: both;
+				}
